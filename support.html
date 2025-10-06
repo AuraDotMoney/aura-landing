@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Get support for Aura - We're here to help">
+    <meta name="theme-color" content="#000000">
+    <title>Support - Aura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/aura-lpage-logo.svg" type="image/svg+xml">
+    <style>
+        .support-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            max-width: 600px;
+            padding: 0 20px;
+        }
+        
+        .support-title {
+            font-size: clamp(24px, 4vw, 36px);
+            font-weight: 600;
+            margin-bottom: clamp(20px, 3vw, 30px);
+            color: white;
+        }
+        
+        .support-message {
+            font-size: clamp(16px, 2.5vw, 20px);
+            font-weight: 400;
+            margin-bottom: clamp(30px, 4vw, 50px);
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.5;
+        }
+        
+        .email-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            padding: clamp(12px, 2vw, 18px) clamp(30px, 4vw, 45px);
+            border-radius: 50px;
+            font-size: clamp(16px, 2.5vw, 20px);
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+        
+        .email-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+            background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+        }
+        
+        .back-link {
+            position: absolute;
+            top: clamp(20px, 3vw, 30px);
+            left: clamp(20px, 3vw, 30px);
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            font-size: clamp(14px, 2vw, 16px);
+            transition: color 0.3s ease;
+        }
+        
+        .back-link:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Back to Home</a>
+    
+    <div class="container">
+        <div class="support-content">
+            <h1 class="support-title">We're here to help</h1>
+            
+            <p class="support-message">
+                Need assistance? Have a question about Aura? We're just an email away. 
+                Our support team is ready to help you with any inquiries or issues you might have.
+            </p>
+            
+            <a href="mailto:support@aura.money" class="email-button">
+                Contact Support
+            </a>
+        </div>
+    </div>
+</body>
+</html>
